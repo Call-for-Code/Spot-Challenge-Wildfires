@@ -98,7 +98,6 @@ Items to keep in mind:
 - Teams must be registered on this leaderboard by January 8, 2021
 - No team mergers are allowed
 - IBM can restrict the number of teams competing
-- There are four phases planned for the contest. IBM may change the details of the phases
 - No sharing of notebooks and models privately between teams unless you make the content available to all
 - The leaderboard determines the winner on March 1, 2021 or when IBM declares the contest closed
 - At some point during the contest, an IBM tool such as Watson Studio or AutoAI should be used during the model development, training, etc.
