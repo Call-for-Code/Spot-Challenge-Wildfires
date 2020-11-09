@@ -11,23 +11,22 @@
 
 ## **Table of Contents**
 - [**The contest**](#contest)
+  - [Timeline](#timeline)
+  - [Submissions](#submissions)
+  - [IBM Cloud](#cloud)
 - [**The data**](#data)
 - [**Further resources**](#resources)
+- [**Terms and Conditions**](#terms)
 
 <a name="contest"></a>
 ## The contest
 
 Go [here](XXX) to find more information and how to sign up for the contest. 
 
-
+<a name="timeline"></a>
 ### Timeline
 
-### IBM Cloud
-
-One of the conditions to be able to win the contest is to use an IBM Cloud Service such as [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) or [AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-overview.html). You can sign up for a free trial account [here](XXX) and [these instructions](XXX) should get you up and running in no time.
-
-
-
+<a name="submissions"></a>
 ### Submissions
 
 - For each submission you need to submit a single `.csv` file
@@ -40,15 +39,20 @@ One of the conditions to be able to win the contest is to use an IBM Cloud Servi
     - For instance, you need 196 entries and the header if you are predicting February 2021 (7 regions * 28 days + header) and 49 entries and the header if you are predicting a week (7 regions * 7 days + header)
     - An example submission file is provided [here](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/data/submission-example.csv)
 
+<a name="cloud"></a>
+### IBM Cloud
+
+One of the conditions to be able to win the contest is to use an IBM Cloud Service such as [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) or [AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-overview.html). You can sign up for a free trial account [here](XXX) and [these instructions](XXX) should get you up and running in no time.
 
 <a name="data"></a>
 ## The data
 
-This is a short summary of the data. Find more details in these [slides](), [readme]() and [example notebooks](). 
+Below a short summary of the data is given. Find more details in these [slides](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/resources/wildfire-challenge-data-introduction.pdf), [readme](XXX) and [example notebooks](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/tree/main/notebooks). 
 
 <a name="resources"></a>
 ## Further resources
 
+<a name="terms"></a>
 ## Terms and Conditions
 
 Please make sure you have agreed to the Participation Agreement for the Call for Code Spot Challenge for Wildfires before you start submitting to the [leaderboard](). You can find the participation agreement on the [contest landing page](http://ibm.biz/cfcsc-wildfires).
