@@ -72,7 +72,7 @@ The following data is provided as daily timeseries for the 9 regions:
 * Historical vegetation index
 * Land classes (static throughout the contest)
 
-Find details about the data sources and data processesing in these [slides](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/resources/wildfire-challenge-data-introduction.pdf) and the [data documentation](XXX). 
+Find details about the data sources and data processesing in these [slides](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/resources/wildfire-challenge-data-introduction.pdf) and the [data documentation](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/data/Readme_Docs_Wildfires-Datasets_2020-11.pdf). 
 
 This [Jupyter notebook](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/notebooks/wildfire-data-introduction.ipynb) will you get started with loading and exploring the data. The data can be loaded directly from this repository into a notebook:
 
@@ -88,7 +88,7 @@ zip.extractall()
 <a name="terms"></a>
 ## Terms and Conditions
 
-Please make sure you have agreed to the Participation Agreement for the Call for Code Spot Challenge for Wildfires before you start submitting to the [leaderboard](). You can find the participation agreement on the [contest landing page](http://ibm.biz/cfcsc-wildfires).
+Please make sure you have agreed to the Participation Agreement for the Call for Code Spot Challenge for Wildfires before you start submitting to the [leaderboard](http://ibm.biz/cfcsc-wildfires-lead). You can find the participation agreement on the [contest landing page](http://ibm.biz/cfcsc-wildfires).
 
 Items to keep in mind:
 
