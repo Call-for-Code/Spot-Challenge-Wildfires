@@ -57,7 +57,9 @@ There will be four main contest stages  - the first three stages are for practic
 <a name="cloud"></a>
 ### IBM Cloud
 
-One of the conditions to be able to win the contest is to use an IBM Cloud Service such as [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) or [AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-overview.html). You can sign up for a free trial account [here](XXX) and [these instructions](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/watson-studio-instructions.md) should get you up and running in no time.
+One of the requirements to win the contest is to use an IBM Cloud Service such as [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) or [AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-overview.html). After you sign up for a free trial account [these instructions](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/watson-studio-instructions.md) should get you up and running in no time.
+
+In Watson Studio you can for instance run Jupyter notebooks, like [this one](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/notebooks/wildfire-data-introduction.ipynb). Or use AutoAI to build your model for which these [instructions](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/resources/AutoAI_WalkThrough_NSW_Temperature_Data.pdf) will get you started. 
 
 <a name="data"></a>
 ## The data
