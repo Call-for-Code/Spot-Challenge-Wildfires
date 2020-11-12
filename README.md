@@ -2,6 +2,13 @@
 
 # Call for Code Spot Challenge for Wildfires
 
+## Upcoming live events and replays
+
+* 23 Nov 5PM GMT: Introduction to the challenge on [Crowdcast](https://www.crowdcast.io/e/call-for-code-spot)
+* 30 Nov 5PM GMT: save the date
+* 7 Dec 5PM GMT: save the date
+* 14 Dec 5PM GMT: save the date
+
 ## Predicting Wildfires
 
 - The ultimate goal of the challenge is to predict the area of wildfires in 7 regions in Australia for **February 2021** with historical wildfire and both historical and forecast weather data, so you will be predicting fires before they happened!
