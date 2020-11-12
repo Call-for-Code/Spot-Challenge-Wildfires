@@ -1,4 +1,4 @@
-![](/images/wildfires-logo-github.png)
+![](/images/wildfires-logo-github-v2.png)
 
 # Call for Code Spot Challenge for Wildfires
 
