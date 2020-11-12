@@ -87,6 +87,9 @@ zip.extractall()
 <a name="resources"></a>
 ## Further resources
 
+* [Forecasting - principles and practice](https://otexts.com/fpp2/) - online textbook on forecasting
+* [https://facebook.github.io/prophet/](Prophet) - forecasting toolbox from Facebook
+
 <a name="terms"></a>
 ## Terms and Conditions
 
