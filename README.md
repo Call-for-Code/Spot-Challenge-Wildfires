@@ -4,8 +4,8 @@
 
 ## Upcoming live events and replays
 
-* 23 Nov 5PM GMT: Introduction to the challenge on [Crowdcast](https://www.crowdcast.io/e/call-for-code-spot)
-* 30 Nov 5PM GMT: save the date
+* 23 Nov 5PM GMT: Introduction to the challenge (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot))
+* 30 Nov 5PM GMT: Learn more about the data (join us on [Crowdcast](https://www.crowdcast.io/e/call-for-code-spot-2))
 * 7 Dec 5PM GMT: save the date
 * 14 Dec 5PM GMT: save the date
 
