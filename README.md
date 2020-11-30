@@ -6,8 +6,10 @@
 
 * 23 Nov 5PM GMT: Introduction to the challenge (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot))
 * 30 Nov 5PM GMT: Learn more about the data (join us on [Crowdcast](https://www.crowdcast.io/e/call-for-code-spot-2))
-* 7 Dec 5PM GMT: save the date
-* 14 Dec 5PM GMT: save the date
+* 7 Dec 5PM GMT: Learn how to use autoAI in the challenge (join us on [Crowdcast](https://www.crowdcast.io/e/call-for-code-spot-3))
+* 11 Jan 5PM GMT: save the date
+* 18 Jan 5PM GMT: save the date
+* 25 Jan 5PM GMT: save the date
 
 ## Links
 
