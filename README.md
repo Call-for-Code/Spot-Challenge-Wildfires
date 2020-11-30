@@ -9,6 +9,13 @@
 * 7 Dec 5PM GMT: save the date
 * 14 Dec 5PM GMT: save the date
 
+## Links
+
+* Landing page - http://ibm.biz/cfcsc-wildfires
+* GitHub repo - https://github.com/Call-for-Code/Spot-Challenge-Wildfires
+* Leaderboard - http://ibm.biz/cfcsc-wildfires-lead
+* Slack workspace - http://callforcode.org/slack - #cfcsc-wildfires channel
+
 ## Predicting Wildfires
 
 - The ultimate goal of the challenge is to predict the area of wildfires in 7 regions in Australia for **February 2021** with historical wildfire and both historical and forecast weather data, so you will be predicting fires before they happened!
