@@ -92,7 +92,7 @@ The following data is provided as daily timeseries for the 9 regions:
 * Historical vegetation index
 * Land classes (static throughout the contest)
 
-Find details about the data sources and data processesing in these [slides](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/resources/wildfire-challenge-data-introduction.pdf) and the [data documentation](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/data/Readme_Docs_Wildfires-Datasets_2020-11.pdf). 
+Find details about the data sources and data processesing [here](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/content.md), and in these [slides](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/resources/wildfire-challenge-data-introduction.pdf) and the [data documentation](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/data/Readme_Docs_Wildfires-Datasets_2020-11.pdf). 
 
 This [Jupyter notebook](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/notebooks/wildfire-data-introduction.ipynb) will you get started with loading and exploring the data. The data can be loaded directly from this repository into a notebook:
 
