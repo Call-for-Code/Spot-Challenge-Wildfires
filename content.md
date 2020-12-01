@@ -6,6 +6,7 @@ Make sure to use the correct dataset from [here](https://github.com/Call-for-Cod
 * Phase 2: *to be added*
 * Phase 3: *to be added*
 
+
 * These [slides](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/resources/wildfire-challenge-data-introduction.pdf) and the [data documentation](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/data/Readme_Docs_Wildfires-Datasets_2020-11.pdf) contain more info on the data
 * This [replay](https://www.crowdcast.io/e/call-for-code-spot-2) and [slides](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/resources/call-for-code_wildfire-challenge_slides_30Nov.pdf) explains how the data was aggreagated for the challenge
 
