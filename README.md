@@ -80,6 +80,8 @@ In Watson Studio you can for instance run Jupyter notebooks, like [this one](htt
 <a name="data"></a>
 ## The data
 
+**All resources in this repo are described [here](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/blob/main/content.md).**
+
 Data is provided as a [zip file](https://github.com/Call-for-Code/Spot-Challenge-Wildfires/tree/main/data) that contains the below files. **For each submission round a new zip file will be added, make sure you use the right one!**
 
 The following data is provided as daily timeseries for the 9 regions:
