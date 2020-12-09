@@ -2,7 +2,7 @@
 
 ## Get a free IBM Cloud account <a id="get-a-free-ibm-cloud-account"></a>
 
-To run a Jupyter notebook in Watson Studio, start by signing up for a [free Cloud account](https://ibm.biz/BdqQ4H). After filling in the form, you will receive a verification code by email, so please use a real address.
+To run a Jupyter notebook in Watson Studio, start by signing up for a [free Cloud account](https://medium.com/r/?url=https%3A%2F%2Fdeveloper.ibm.com%2Fdwwi%2Fjsp%2Fregister.jsp%3Feventid%3Dcfc-2020-SP-wildfire) (or [log in](https://medium.com/r/?url=https%3A%2F%2Fdeveloper.ibm.com%2Fdwwi%2Fjsp%2Fregister.jsp%3Feventid%3Dcfc-2020-SP-wildfire) if you have an account already). After filling in the form, you will receive a verification code by email, so please use a real address.
 
 Once your account is verified and set up, you will see this welcome screen. Click on the 🍔 in the top left corner to expand the contents list. At the top you can find more information about your account, documentation and available resources and services.
 
