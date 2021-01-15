@@ -52,5 +52,9 @@ result = evaluation_script.evaluate(
     args.phase,
     submission_metadata=SUBMISSION_METADATA
 )
-print("Error metrics: \n{}".format(json.dumps(result['submission_result'],sort_keys=True, indent=4)))
-print("Total Error: {}".format(result['submission_result']['tot']))
+print("All informative error metrics: \n{}".format(json.dumps(result['submission_result'],sort_keys=True, indent=4)))
+print("Scoring errors: \n\tMAE: {:.4f} \n\tRMSE: {:.4f} \n\tTotal: {:.4f}".format(
+        result['submission_result']['mae'],
+        result['submission_result']['rmse'],
+        result['submission_result']['tot']
+    ))

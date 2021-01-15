@@ -39,3 +39,5 @@ Good question! Let's take a look at the directory structure here. You do not nee
 - `local_evaluate.py`: This is the main script that you will use. It is a CLI (command line interface) that simplifies usage of the actual evaluation script.
 - `requirements.txt`: This is the file you can use to install the required libraries. see the [Requirements](###Requirements) section for more info. 
 - `README.md`: That's the file you are reading now! Hello 👋
+
+Good luck!

@@ -6,10 +6,10 @@ import pkg_resources
 try:
     pkg_resources.require("pandas>=1.2.0")
     pkg_resources.require("numpy>=1.19.0")
-except DistributionNotFound:
+except pkg_resources.DistributionNotFound:
     print("Installing numpy pandas")
     os.system("pip install numpy pandas")
-except VersionConflict:
+except pkg_resources.VersionConflict:
     print("Updating numpy pandas")
     os.system("pip install --upgrade pandas")
 except:
@@ -347,7 +347,7 @@ METRICS = {
 }
 
 
-def _evaluate(actual: np.ndarray, predicted: np.ndarray, metrics=('mae', 'mse', 'smape', 'umbrae')):
+def _evaluate(actual: np.ndarray, predicted: np.ndarray, metrics=('mae', 'mse', 'smape', 'umbrae', 'rmse')):
     results = {}
     for name in metrics:
         try:
@@ -500,14 +500,16 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
         output["result"] = [
             {
                 CONFIG[phase_codename]["split"]: {
-                    'mape': 0, 
-                    'mdape': 0, 
-                    'smape': 0, 
-                    'smdape':0, 
-                    'maape': 0, 
-                    'rmspe': 0, 
-                    'rmdspe':0, 
-                    'tot': 0
+                    'mape': -99, 
+                    'mdape': -99, 
+                    'smape': -99, 
+                    'smdape':-99, 
+                    'maape': -99, 
+                    'rmspe': -99, 
+                    'rmdspe':-99, 
+                    'mae': -99,
+                    'rmse': -99,
+                    'tot': -99
                 }
             }
         ]
@@ -520,7 +522,7 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
 
         area=_evaluate(df_merged['Estimated_fire_area_actual'].to_numpy(),
                         df_merged['Estimated_fire_area_forcast'].to_numpy(),
-                        metrics=('mape', 'mdape', 'smape','smdape','maape', 'rmspe', 'rmdspe','tot'))
+                        metrics=('mape', 'mdape', 'smape','smdape','maape', 'rmspe', 'rmdspe','rmse', 'mae','tot'))
         output["result"] = [
             {
                 CONFIG[phase_codename]["split"]: area
