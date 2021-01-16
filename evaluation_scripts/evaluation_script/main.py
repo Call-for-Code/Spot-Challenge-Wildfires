@@ -405,6 +405,9 @@ def check_sub_has_all_forcasts(forcast_df, phase_codename):
         correct_index = pd.MultiIndex.from_product([VALID_DATE_RANGE_FEB_2021,VALID_REGION_CODES], names=('Date', 'Region'))
     else:
         raise cleaningException("An error happened while parsing phase_codename {}".format(phase_codename))
+    
+    if len(forcast_df.index) != len(correct_index):
+        raise formatException("Your forcast has {} rows, while we expected {} rows.".format(len(forcast_df.index), len(correct_index)))
 
     if len(correct_index.difference(forcast_df.index)) != 0:
         raise missingValueException("Your submission is missing the following expected forcasts: \n{}. \n Found: \n {}". format(correct_index.difference(forcast_df.index).to_frame(index=False), forcast_df.index.to_frame(index=False)))
@@ -412,8 +415,12 @@ def check_sub_has_all_forcasts(forcast_df, phase_codename):
     return None
 
 def check_both_indices_match(forcast_df, phase_df, phase_codename):
-    if len(forcast_df.index.difference(forcast_df.index)) != 0:
+    if len(phase_df.index.difference(forcast_df.index)) != 0:
         raise cleaningException("The index for your submission and ground truth don't match. Expected: \n{}. \n Found: \n {}". format(forcast_df.index.to_frame(index=False), forcast_df.index.to_frame(index=False)))
+
+def check_for_no_duplicates(forcast_df, phase_codename):
+    if len(forcast_df[forcast_df.index.duplicated()]) !=0 :
+        raise formatException("Your prediction has the following duplicates: \n{}".format(forcast_df[forcast_df.index.duplicated()].index.to_frame(index=False), forcast_df.index.to_frame(index=False)))
 
 def clean_dates(forcast_df, phase_codename):
     # Check the date formatting
@@ -491,6 +498,7 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
     check_sub_region_code(forcast, phase_codename)
 
     forcast.set_index(['Date', 'Region'], inplace=True)
+    check_for_no_duplicates(forcast, phase_codename)
     check_sub_has_all_forcasts(forcast, phase_codename)
 
 

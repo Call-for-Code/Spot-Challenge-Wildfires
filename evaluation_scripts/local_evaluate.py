@@ -58,3 +58,6 @@ print("Scoring errors: \n\tMAE: {:.4f} \n\tRMSE: {:.4f} \n\tTotal: {:.4f}".forma
         result['submission_result']['rmse'],
         result['submission_result']['tot']
     ))
+
+if result['submission_result']['mae'] == -99: 
+    print ("Note: -99 means that the ground truth is not available")
