@@ -118,7 +118,7 @@ Items to keep in mind:
 - No IBMers or Red Hatters can participate
 - A contestant can have exactly one account on this leaderboard and can be in exactly one team
 - The maximum team size is 5
-- Teams must be registered on this leaderboard by January 8, 2021
+- Teams must be registered on this leaderboard by January 30, 2021
 - No team mergers are allowed
 - IBM can restrict the number of teams competing
 - No sharing of notebooks and models privately between teams unless you make the content available to all
