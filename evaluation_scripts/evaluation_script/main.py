@@ -525,6 +525,9 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
         # Merge
         df_merged = actual.join(forcast,lsuffix='_actual',rsuffix='_forcast')
 
+        # Trim the df_merged to only rows available in the "actual" dataframe 
+        df_merged = df_merged.loc[actual.index]
+
         if df_merged.isna().values.any():
             raise missingValueException("There are NA values after your forcast is joined with the actual predictions. Please check your submissions formatting again or contact the organizers if you need more help.")
 

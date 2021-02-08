@@ -6,6 +6,13 @@ import sys
 
 import evaluation_script
 
+
+# 
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+#
+
+
 ## CONSTANTS ########################################
 SUBMISSION_METADATA = {
     "status": u"running",
@@ -46,9 +53,14 @@ args = parser.parse_args()
 ## SCORING THE SUBMISSION ########################################
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
+if args.submission_path[:4] == "http":
+    qualified_submission_path = args.submission_path
+else:
+    qualified_submission_path = os.path.join(currentdir, args.submission_path)
+
 result = evaluation_script.evaluate(
     os.path.join(currentdir, ANNOTATION_PATHS[args.phase]),
-    os.path.join(currentdir, args.submission_path),
+    qualified_submission_path,
     args.phase,
     submission_metadata=SUBMISSION_METADATA
 )
