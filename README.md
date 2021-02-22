@@ -4,14 +4,19 @@
 
 ## Upcoming live events and replays
 
-* 23 Nov 5PM GMT: Introduction to the challenge (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot))
-* 30 Nov 5PM GMT: Learn more about the data (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot-2))
-* 7 Dec 5PM GMT: Learn how to use autoAI in the challenge (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot-3))
+### 2021
+
 * 11 Jan 5PM GMT: Leaderboard and refreshed data(watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot-4))
 * 18 Jan 5PM GMT: Hear from Team WildFireNet (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot-5))
 * 25 Jan 5PM GMT: Hypothesis Testing of Multivariate Time Series (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot-6)) 
 * ##1 Feb 5pm GMT: The last opportunity - Final Deadline is Feb 2 - midnite GMT## 
 * 22 Feb 12.30pm GMT: Approaches to Building Models for the Wildfires Challenge (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot-7))
+
+### 2020
+
+* 23 Nov 5PM GMT: Introduction to the challenge (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot))
+* 30 Nov 5PM GMT: Learn more about the data (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot-2))
+* 7 Dec 5PM GMT: Learn how to use autoAI in the challenge (watch the [Replay](https://www.crowdcast.io/e/call-for-code-spot-3))
 
 ## Links
 
